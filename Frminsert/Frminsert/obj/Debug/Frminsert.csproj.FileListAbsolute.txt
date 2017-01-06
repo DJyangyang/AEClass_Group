@@ -1,0 +1,9 @@
+G:\yangyangHU-BU\暑期项目\李中元AE\Frminsert\Frminsert\bin\Debug\Frminsert.exe.config
+G:\yangyangHU-BU\暑期项目\李中元AE\Frminsert\Frminsert\bin\Debug\Frminsert.exe
+G:\yangyangHU-BU\暑期项目\李中元AE\Frminsert\Frminsert\bin\Debug\Frminsert.pdb
+G:\yangyangHU-BU\暑期项目\李中元AE\Frminsert\Frminsert\obj\Debug\Frminsert.csprojResolveAssemblyReference.cache
+G:\yangyangHU-BU\暑期项目\李中元AE\Frminsert\Frminsert\obj\Debug\Frminsert.Form1.resources
+G:\yangyangHU-BU\暑期项目\李中元AE\Frminsert\Frminsert\obj\Debug\Frminsert.Properties.Resources.resources
+G:\yangyangHU-BU\暑期项目\李中元AE\Frminsert\Frminsert\obj\Debug\Frminsert.csproj.GenerateResource.Cache
+G:\yangyangHU-BU\暑期项目\李中元AE\Frminsert\Frminsert\obj\Debug\Frminsert.exe
+G:\yangyangHU-BU\暑期项目\李中元AE\Frminsert\Frminsert\obj\Debug\Frminsert.pdb

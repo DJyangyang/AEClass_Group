@@ -1,0 +1,28 @@
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS\MainGIS\bin\Debug\MainGIS.exe.config
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS\MainGIS\obj\Debug\MainGIS.Properties.Resources.resources
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS\MainGIS\obj\Debug\MainGIS.csproj.GenerateResource.Cache
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS\MainGIS\bin\Debug\MainGIS.exe
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS\MainGIS\bin\Debug\MainGIS.pdb
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS\MainGIS\obj\Debug\MainGIS.MBuffer.resources
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS\MainGIS\obj\Debug\MainGIS.exe
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS\MainGIS\obj\Debug\MainGIS.pdb
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS\MainGIS\obj\Debug\MainGIS.MainGIS.resources
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS\MainGIS\bin\Debug\ESRI.ArcGIS.ADF.dll
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS\MainGIS\bin\Debug\ESRI.ArcGIS.ADF.xml
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS\MainGIS\obj\Debug\MainGIS.frmattribute.resources
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS\MainGIS\obj\Debug\MainGIS.frmDbmanager.resources
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS\MainGIS\obj\Debug\MainGIS.csprojResolveAssemblyReference.cache
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS - 副本\MainGIS\bin\Debug\MainGIS.exe.config
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS - 副本\MainGIS\obj\Debug\MainGIS.csprojResolveAssemblyReference.cache
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS - 副本\MainGIS\obj\Debug\MainGIS.frmattribute.resources
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS - 副本\MainGIS\obj\Debug\MainGIS.frmDbmanager.resources
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS - 副本\MainGIS\obj\Debug\MainGIS.MainGIS.resources
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS - 副本\MainGIS\obj\Debug\MainGIS.MBuffer.resources
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS - 副本\MainGIS\obj\Debug\MainGIS.Properties.Resources.resources
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS - 副本\MainGIS\obj\Debug\MainGIS.csproj.GenerateResource.Cache
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS - 副本\MainGIS\bin\Debug\MainGIS.exe
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS - 副本\MainGIS\bin\Debug\MainGIS.pdb
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS - 副本\MainGIS\bin\Debug\ESRI.ArcGIS.ADF.dll
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS - 副本\MainGIS\bin\Debug\ESRI.ArcGIS.ADF.xml
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS - 副本\MainGIS\obj\Debug\MainGIS.exe
+G:\yangyangHU-BU\暑期项目\李中元AE\MainGIS - 副本\MainGIS\obj\Debug\MainGIS.pdb

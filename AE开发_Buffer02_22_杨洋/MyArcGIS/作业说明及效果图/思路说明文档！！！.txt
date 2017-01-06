@@ -1,0 +1,66 @@
+1.程序为菜单下拉式，分为主窗体和副窗体
+
+2.主窗体控件（MainGIS）：menuStrip
+              ToolBarControl
+              TOCControl
+              MapControl
+引用第三方控件DevComponents.DotNetBar2改变Form显示风格
+
+3.副窗体(bufferEX)：两个ComBox，三个TextBox，三个Button，两个GroupBox
+
+4.缓冲代码部分：
+
+  IHookHelper接口：
+
+  1.实例化IHookHelper 对象
+  IHookHelper m_hookHelper = new HookHelperClass(); 
+  m_hookHelper.Hook = this.axMapControl1.Object ;这样就可以把AxMapControl传递给其它要用到的地方。
+
+  2.通过IHookHelper，获取地图控件和主窗体:
+  IntPtr pHandle = new IntPtr （m_hookHelper.ActiveView.ScreenDisplay.hWnd);
+
+  axMapControl1 = System.Windows.Forms.Form.FromHandle(pHandle) as AxMapControl;
+  //对这个地图控件对象操作，会直接反应到主窗体的地图控件上
+
+  Form. MainForm. = Form.FromHandle(pHandle).FindForm();
+  //这里的主窗体对象之后运行时能起作用，MainForm. 不能直接访问到主窗体里的变量。
+
+  3.通过IHookHelper，获取IActiveView和IMap对象
+    再通过IHookHelper.ActiveView和IHookHelper.FocusMap属性来获取IActiveView和IMap对象。
+    
+  ILayer接口：
+   
+  访问所有图层的成员实现IFeatureLayer的类 
+   
+  StringBuilder 类：可以提升性能
+ 
+  Geoprocessor：通过设置不同的环境参数，简化执行Geoprocessing工具的过程，并返回相应的处理结果
+  
+ 图层类型的GUID编码
+{6CA416B1-E160-11D2-9F4E-00C04F6BC78E} IDataLayer
+{40A9E885-5533-11d0-98BE-00805F7CED21} IFeatureLayer
+{E156D7E5-22AF-11D3-9F99-00C04F6BC78E} IGeoFeatureLayer
+{34B2EF81-F4AC-11D1-A245-080009B6F22B} IGraphicsLayer
+{5CEAE408-4C0A-437F-9DB3-054D83919850} IFDOGraphicsLayer
+{0C22A4C7-DAFD-11D2-9F46-00C04F6BC78E} ICoverageAnnotationLayer
+{EDAD6644-1810-11D1-86AE-0000F8751720} IGroupLayer
+
+IEnumLayer layers = m_hookhelper.FocusMap.get_Layers(uid, true);
+            return layers;
+UID表示图层类型的GUID编码
+recursive为true时候返回group layers里面的图层（获取的图层集合）
+
+
+5.缓冲部分：
+   （1）将打开的Mxd文件中的图层名全部读入到ComBox中，默认加载第一个图层（IHookhelper.FocusMap）
+   （2）通过弹出对话框的形式修改存储路径，存储文件类型为shapefile文件
+   （3）获取图层的计量单位
+    (4)从地图中读取图层（IFeatureLayer）
+   （5）设置信息框显示内容（tbMessage   Geoprocessor）
+   （6）调用Buffer接口完成缓冲分析
+    
+    
+    
+
+   
+          
